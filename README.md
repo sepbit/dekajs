@@ -66,7 +66,6 @@ Dekatrian.gregToDeka(2018, 12, 31)
 Please see [CHANGELOG](docs/CHANGELOG.md) for more information on what has changed recently.
 
 ## Testing
-Test with [Mocha](https://mochajs.org), we also recommend [Istanbul](https://istanbul.js.org).
 
 ```bash
 $ npm run test
@@ -87,4 +86,4 @@ If you discover any security related issues, please email ``contato@vitortec.com
 
 ## License
 
-GPL-3.0-or-later. Please see [License File](LICENSE) for more information.
+GPL-3.0-or-later. Please see [License File](LICENSE.md) for more information.
