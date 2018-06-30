@@ -1,21 +1,10 @@
-# language: js
-filter:
-    paths:
-        - src/
-    excluded_paths:
-        - docs/
-        - examples/
-        - tests/
 checks:
     javascript: true
+
+
 build:
     nodes:
-        node620:
-            environment:
-                node: v6.2.0
-            dependencies:
-                override:
-                    - npm install
+        analysis:
             tests:
                 override:
                     - node_modules/.bin/standard --fix \"src/**/*.js\" \"tests/**/*.js\"
@@ -25,3 +14,4 @@ build:
                         coverage:
                             file: coverage/clover.xml
                             format: clover
+                    - js-scrutinizer-run
