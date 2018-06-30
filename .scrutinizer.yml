@@ -1,7 +1,11 @@
+filter:
+    paths:
+        - src/
+        - tests/
+    dependency_paths:
+        - node_modules/
 checks:
     javascript: true
-
-
 build:
     nodes:
         analysis:
