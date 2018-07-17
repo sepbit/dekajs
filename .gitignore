@@ -1,5 +1,6 @@
 .git/
 .nyc_output/
-coverage/
 package-lock.json
+coverage/
+doc/jsdoc
 node_modules/

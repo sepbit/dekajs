@@ -1,35 +1,54 @@
 {
   "name": "vitorteccom-dekajs",
+  "version": "2.1.1",
   "description": "This is a simple library to convert Dekatrian and Gregorian.",
-  "version": "2.0.0",
   "keywords": [
+    "Vitortec.com",
     "converter",
     "date",
     "calendar",
     "dekatrian",
-    "gregorian",
-    "vitorteccom"
+    "gregorian"
   ],
-  "homepage": "https://devs.vitortec.com/dekajs",
-  "license": "GPL-3.0-or-later",
-  "main": "src/Dekatrian.js",
-  "author": "Vitor Guia <vitor.guia@vitortec.com> (https://github.com/vitoranguia)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vitorteccom/dekajs.git"
-  },
+  "homepage": "https://github.com/vitorteccom/dekajs",
   "bugs": {
     "email": "contato@vitortec.com",
     "url": "https://github.com/vitorteccom/dekajs/issues"
   },
-  "devDependencies": {
-    "standard": "^10.0",
-    "mocha": "^5.0",
-    "nyc": "^11.4"
+  "license": "GPL-3.0-or-later",
+  "author": [
+    {
+      "name": "Vitor Guia",
+      "email": "vitor.guia@vitortec.com",
+      "url": "https://github.com/vitoranguia"
+    }
+  ],
+  "main": "lib/dekatrian.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitorteccom/dekajs.git"
   },
   "scripts": {
-    "fix-style": "standard --fix \"src/**/*.js\" \"tests/**/*.js\"",
-    "check-style": "standard \"src/**/*.js\" \"tests/**/*.js\"",
-    "test": "nyc mocha --timeout=3000 tests/*Test.js"
-  }
+    "doc": "jsdoc -r lib/ -d doc/jsdoc/",
+    "fix-style": "standard --fix 'bin/**/*.js' 'lib/**/*.js' 'test/**/*.js'",
+    "check-style": "standard 'bin/**/*.js' 'lib/**/*.js' 'test/**/*.js'",
+    "test": "nyc --reporter=html --reporter=text mocha 'test/**/*.js'"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5",
+    "standard": "^10.0",
+    "mocha": "^5.0",
+    "chai": "^4.1",
+    "nyc": "^11.4"
+  },
+  "engines": {
+    "node": "^8.11",
+    "npm": "^6.1"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ]
 }

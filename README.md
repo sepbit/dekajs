@@ -11,18 +11,16 @@ DEKAtrian for JavaScript
 
 This is a simple library for converting dates between [Dekatrian](https://www.facebook.com/dekatrian/) and [Gregorian](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar) calendars. This library is not official.
 
-This package is compatible with code style [Standard](https://github.com/standard/standard).
+This package is compatible with [Standard](https://github.com/standard/standard) and [LibreJS](https://www.gnu.org/software/librejs).
 
 ## Structure
 This is the directory structure.
 
 ```
-coverage/
-docs/
-examples/
+doc/
+lib/
 node_modules/
-src/
-tests/
+test/
 ```
 
 
@@ -30,51 +28,37 @@ tests/
 
 Via NPM.
 
-```bash
+``` bash
 $ npm install vitorteccom-dekajs
 ```
 
 ## Usage
-This is minimal example node.
 
-```javascript
-var Dekatrian = require('vitorteccom-dekajs')
-```
+``` javascript
+const dekatrian = require('vitorteccom-dekajs')
 
-Check if a Dekatrian date is valid or not.
-
-```javascript
-Dekatrian.checkDekatrian(2018, 13, 28)
-// Return boolean, true
-```
-
-Convert from Dekatrian to Gregorian calendars.
-
-```javascript
-Dekatrian.dekatoGreg(2018, 13, 28)
+// Convert from Dekatrian to Gregorian calendars
+dekatrian.dekatoGreg(2018, 13, 28)
 // Return string, 2018-12-31
-```
 
-Convert from Gregorian to Dekatrian calendars.
-
-```javascript
-Dekatrian.gregToDeka(2018, 12, 31)
+// Convert from Gregorian to Dekatrian calendars
+dekatrian.gregToDeka(2018, 12, 31)
 // Return string, 2018-13-28
 ```
 
 ## Change log
 
-Please see [CHANGELOG](docs/CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Testing
 
-```bash
-$ npm run test
+``` bash
+$ composer test
 ```
 
 ## Contributing
 
-Please see [CONTRIBUTING](docs/CONTRIBUTING.md) and [CODE_OF_CONDUCT](docs/CODE_OF_CONDUCT.md) for details.
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
 
 ## Security
 

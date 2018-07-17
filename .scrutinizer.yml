@@ -1,7 +1,8 @@
 filter:
     paths:
-        - src/
-        - tests/
+        - bin/
+        - lib/
+        - test/
     dependency_paths:
         - node_modules/
 checks:
@@ -11,10 +12,10 @@ build:
         analysis:
             tests:
                 override:
-                    - node_modules/.bin/standard --fix "src/**/*.js" "tests/**/*.js"
-                    - node_modules/.bin/standard "src/**/*.js" "tests/**/*.js"
+                    - node_modules/.bin/standard --fix "bin/**/*.js" "lib/**/*.js" "test/**/*.js"
+                    - node_modules/.bin/standard "bin/**/*.js" "lib/**/*.js" "test/**/*.js"
                     -
-                        command: node_modules/.bin/nyc --reporter=clover node_modules/.bin/mocha tests/*Test.js
+                        command: node_modules/.bin/nyc --reporter=clover node_modules/.bin/mocha test/*Test.js
                         coverage:
                             file: coverage/clover.xml
                             format: clover
