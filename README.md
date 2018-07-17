@@ -2,8 +2,8 @@
 DEKAtrian for JavaScript
 
 [![Software License](https://img.shields.io/github/license/vitorteccom/dekajs.svg)](LICENSE)
-[![Latest Version on NPM](https://img.shields.io/npm/v/vitorteccom-dekajs.svg)](https://npmjs.org/package/vitorteccom-dekajs)
-[![Total Downloads](https://img.shields.io/npm/dt/vitorteccom-dekajs.svg)](https://npmjs.org/package/vitorteccom-dekajs)
+[![Latest Version on NPM](https://img.shields.io/npm/v/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
+[![Total Downloads](https://img.shields.io/npm/dt/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vitorteccom/dekajs/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/vitorteccom/dekajs/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/vitorteccom/dekajs/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/build-status/master)
@@ -29,7 +29,7 @@ test/
 Via NPM.
 
 ``` bash
-$ npm install vitorteccom-dekajs
+$ npm install @vitorteccom/dekajs
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ $ npm install vitorteccom-dekajs
 CommonJS module.
 
 ``` javascript
-const dekatrian = require('vitorteccom-dekajs')
+const dekatrian = require('@vitorteccom/dekajs')
 
 // Convert from Dekatrian to Gregorian calendars
 dekatrian.dekatoGreg(2018, 13, 28)
@@ -53,7 +53,7 @@ ECMAScript module.
 
 ``` html
 <script type="module">
-  import {dekatoGreg, gregToDeka} from 'https://unpkg.com/vitorteccom-dekajs@2.1.6/lib/dekatrian.mjs'
+  import {dekatoGreg, gregToDeka} from 'https://unpkg.com/@vitorteccom/dekajs@3.0.0/lib/dekatrian.mjs'
 
   // Convert from Dekatrian to Gregorian calendars
   dekatoGreg(2018, 13, 28)

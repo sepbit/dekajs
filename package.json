@@ -1,6 +1,6 @@
 {
-  "name": "vitorteccom-dekajs",
-  "version": "2.1.6",
+  "name": "@vitorteccom/dekajs",
+  "version": "3.0.0",
   "description": "This is a simple library to convert Dekatrian and Gregorian.",
   "keywords": [
     "Vitortec.com",
@@ -23,7 +23,7 @@
       "url": "https://github.com/vitoranguia"
     }
   ],
-  "main": "lib/dekatrian.js",
+  "main": "lib/dekatrian",
   "repository": {
     "type": "git",
     "url": "https://github.com/vitorteccom/dekajs.git"
