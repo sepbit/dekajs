@@ -53,7 +53,7 @@ ECMAScript module.
 
 ``` html
 <script type="module">
-  import {dekatoGreg, gregToDeka} from 'https://unpkg.com/vitorteccom-dekajs@2.1.3/lib/dekatrian.mjs'
+  import {dekatoGreg, gregToDeka} from 'https://unpkg.com/vitorteccom-dekajs@2.1.4/lib/dekatrian.mjs'
 
   // Convert from Dekatrian to Gregorian calendars
   dekatoGreg(2018, 13, 28)
