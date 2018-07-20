@@ -4,6 +4,12 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## v3.0.1 - 2018-06-20
+
+### Changed
+
+- Publish the readme file in NPM.js
+
 ## v3.0.0 - 2018-06-17
 
 ### Changed
