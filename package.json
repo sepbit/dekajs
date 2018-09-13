@@ -1,6 +1,6 @@
 {
   "name": "@vitorteccom/dekajs",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "This is a simple library to convert Dekatrian and Gregorian.",
   "keywords": [
     "Vitortec.com",
@@ -43,7 +43,7 @@
   },
   "engines": {
     "node": "^8.11",
-    "npm": "^6.1"
+    "npm": "^6.4"
   },
   "os": [
     "linux"
