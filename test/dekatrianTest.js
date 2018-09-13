@@ -38,34 +38,34 @@ describe('Check leap year', function () {
 
 describe('Check Dekatrian', function () {
   it('Error 2016-0-3', function (done) {
-    assert.ifError(dekatrian.dekatoGreg(2016, 0, 3))
+    assert.ifError(dekatrian.dekaToGreg(2016, 0, 3))
     done()
   })
 
   it('Error 2018-0-2', function (done) {
-    assert.ifError(dekatrian.dekatoGreg(2018, 0, 2))
+    assert.ifError(dekatrian.dekaToGreg(2018, 0, 2))
     done()
   })
 
   it('Error 2018-14-2', function (done) {
-    assert.ifError(dekatrian.dekatoGreg(2018, 14, 2))
+    assert.ifError(dekatrian.dekaToGreg(2018, 14, 2))
     done()
   })
 })
 
 describe('Dekatrian to Gregorian', function () {
   it('Achronian day', function (done) {
-    assert.equal('2018-1-1', dekatrian.dekatoGreg(2018, 0, 1))
+    assert.equal('2018-1-1', dekatrian.dekaToGreg(2018, 0, 1))
     done()
   })
 
   it('Sinchronian day', function (done) {
-    assert.equal('2016-1-2', dekatrian.dekatoGreg(2016, 0, 2))
+    assert.equal('2016-1-2', dekatrian.dekaToGreg(2016, 0, 2))
     done()
   })
 
   it('Other day', function (done) {
-    assert.equal('2016-12-31', dekatrian.dekatoGreg(2016, 13, 28))
+    assert.equal('2016-12-31', dekatrian.dekaToGreg(2016, 13, 28))
     done()
   })
 })
