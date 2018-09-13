@@ -17,7 +17,6 @@
  *
  * Node.js version 8.11
  *
- * @version   3.0.1
  * @author    Vitor Guia <vitor.guia@vitortec.com>
  * @copyright 2018 Vitortec.com
  * @license   http://www.gnu.org/licenses GPL-3.0-or-later
