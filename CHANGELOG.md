@@ -16,8 +16,6 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 - dekatoGreg method to dekaToGreg 
 
-## [2.0.1] 2018-07-18
-
 ## [3.0.1] - 2018-06-20
 
 ### Changed
@@ -39,6 +37,7 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ## [1.0.1] - 2018-02-11
 
 ### Changed
+
 - package.json
 
 ## [1.0.0] - 2018-02-11
