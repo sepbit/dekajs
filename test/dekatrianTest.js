@@ -28,6 +28,9 @@
 const assert = require('assert')
 const dekatrian = require('../lib/dekatrian')
 
+/**
+ * Test private function checkLeapYear
+ */
 describe('Check leap year', function () {
   it('400 year', function (done) {
     assert.ok(dekatrian.gregToDeka(400, 1, 1))
@@ -35,6 +38,34 @@ describe('Check leap year', function () {
   })
 })
 
+/**
+ * Test private function checkGregorian
+ */
+describe('Check Gregorian', function () {
+  it('Error 2016-2-30', function (done) {
+    assert.equal(false, dekatrian.gregToDeka(2016, 2, 30))
+    done()
+  })
+
+  it('Error 2016-2-29', function (done) {
+    assert.equal(false, dekatrian.gregToDeka(2018, 2, 29))
+    done()
+  })
+
+  it('Error 2018-1-32', function (done) {
+    assert.equal(false, dekatrian.gregToDeka(2018, 1, 32))
+    done()
+  })
+
+  it('Error 2018-13-31', function (done) {
+    assert.equal(false, dekatrian.gregToDeka(2018, 4, 31))
+    done()
+  })
+})
+
+/**
+ * Test private function checkDekatrian
+ */
 describe('Check Dekatrian', function () {
   it('Error 2016-0-3', function (done) {
     assert.ifError(dekatrian.dekaToGreg(2016, 0, 3))
@@ -52,6 +83,9 @@ describe('Check Dekatrian', function () {
   })
 })
 
+/**
+ * Test public function dekaToGreg
+ */
 describe('Dekatrian to Gregorian', function () {
   it('Achronian day', function (done) {
     assert.equal('2018-1-1', dekatrian.dekaToGreg(2018, 0, 1))
@@ -69,6 +103,9 @@ describe('Dekatrian to Gregorian', function () {
   })
 })
 
+/**
+ * Test public function gregToDeka
+ */
 describe('Gregorian to Dekatrian', function () {
   it('Achronian day', function (done) {
     assert.equal('2018-0-1', dekatrian.gregToDeka(2018, 1, 1))
@@ -77,6 +114,11 @@ describe('Gregorian to Dekatrian', function () {
 
   it('Sinchronian day', function (done) {
     assert.equal('2016-0-2', dekatrian.gregToDeka(2016, 1, 2))
+    done()
+  })
+
+  it('2018-12-31', function (done) {
+    assert.equal('2018-13-28', dekatrian.gregToDeka(2018, 12, 31))
     done()
   })
 })
