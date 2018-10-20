@@ -4,6 +4,16 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [4.0.3] 2018-10-20
+
+### Changed
+
+- Universal Ctags
+
+### Removed
+
+- Code Intelligence badge in README.md
+
 ## [4.0.2] 2018-10-20
 
 ### Changed
