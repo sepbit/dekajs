@@ -4,6 +4,12 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [4.0.2] 2018-10-20
+
+### Changed
+
+- indent style 
+
 ## [4.0.1] 2018-09-14
 
 ### Fixed 
