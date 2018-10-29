@@ -4,6 +4,12 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [4.0.4] 2018-10-29
+
+### Changed
+
+- Use JSDoc
+
 ## [4.0.3] 2018-10-20
 
 ### Changed
@@ -18,19 +24,19 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ### Changed
 
-- indent style 
+- indent style
 
 ## [4.0.1] 2018-09-14
 
-### Fixed 
+### Fixed
 
-- Get Gregorian day of year 
+- Get Gregorian day of year
 
 ## [4.0.0] 2018-09-13
 
 ### Changed
 
-- dekatoGreg method to dekaToGreg 
+- dekatoGreg method to dekaToGreg
 
 ## [3.0.1] - 2018-06-20
 
