@@ -4,6 +4,11 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [4.0.6] - 2018-12-22
+
+### Changed
+- assert.equal() to assert.strictEqual()
+
 ## [4.0.5] - 2018-12-22
 
 ### Changed

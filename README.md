@@ -1,7 +1,7 @@
 # Dekajs
 DEKAtrian for JavaScript
 
-[![Software License](https://img.shields.io/github/license/vitorteccom/dekajs.svg)](LICENSE.md)
+[![Software License](https://img.shields.io/github/license/vitorteccom/dekajs.svg)](COPYING)
 [![Latest Version on NPM](https://img.shields.io/npm/v/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
 [![Total Downloads](https://img.shields.io/npm/dt/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vitorteccom/dekajs/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/?branch=master)

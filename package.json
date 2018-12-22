@@ -1,6 +1,6 @@
 {
     "name": "@vitorteccom/dekajs",
-    "version": "4.0.5",
+    "version": "4.0.6",
     "description": "This is a simple library to convert Dekatrian and Gregorian.",
     "keywords": [
         "Vitortec.com",
@@ -49,5 +49,8 @@
     ],
     "cpu": [
         "x64"
-    ]
+    ],
+    "dependencies": {
+        "npm": "^6.5.0"
+    }
 }
