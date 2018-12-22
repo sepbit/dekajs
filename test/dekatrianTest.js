@@ -43,22 +43,22 @@ describe('Check leap year', function () {
  */
 describe('Check Gregorian', function () {
   it('Error 2016-2-30', function (done) {
-    assert.equal(false, dekatrian.gregToDeka(2016, 2, 30))
+    assert.strictEqual(false, dekatrian.gregToDeka(2016, 2, 30))
     done()
   })
 
   it('Error 2016-2-29', function (done) {
-    assert.equal(false, dekatrian.gregToDeka(2018, 2, 29))
+    assert.strictEqual(false, dekatrian.gregToDeka(2018, 2, 29))
     done()
   })
 
   it('Error 2018-1-32', function (done) {
-    assert.equal(false, dekatrian.gregToDeka(2018, 1, 32))
+    assert.strictEqual(false, dekatrian.gregToDeka(2018, 1, 32))
     done()
   })
 
   it('Error 2018-13-31', function (done) {
-    assert.equal(false, dekatrian.gregToDeka(2018, 4, 31))
+    assert.strictEqual(false, dekatrian.gregToDeka(2018, 4, 31))
     done()
   })
 })
@@ -88,17 +88,17 @@ describe('Check Dekatrian', function () {
  */
 describe('Dekatrian to Gregorian', function () {
   it('Achronian day', function (done) {
-    assert.equal('2018-1-1', dekatrian.dekaToGreg(2018, 0, 1))
+    assert.strictEqual('2018-1-1', dekatrian.dekaToGreg(2018, 0, 1))
     done()
   })
 
   it('Sinchronian day', function (done) {
-    assert.equal('2016-1-2', dekatrian.dekaToGreg(2016, 0, 2))
+    assert.strictEqual('2016-1-2', dekatrian.dekaToGreg(2016, 0, 2))
     done()
   })
 
   it('Other day', function (done) {
-    assert.equal('2016-12-31', dekatrian.dekaToGreg(2016, 13, 28))
+    assert.strictEqual('2016-12-31', dekatrian.dekaToGreg(2016, 13, 28))
     done()
   })
 })
@@ -108,17 +108,17 @@ describe('Dekatrian to Gregorian', function () {
  */
 describe('Gregorian to Dekatrian', function () {
   it('Achronian day', function (done) {
-    assert.equal('2018-0-1', dekatrian.gregToDeka(2018, 1, 1))
+    assert.strictEqual('2018-0-1', dekatrian.gregToDeka(2018, 1, 1))
     done()
   })
 
   it('Sinchronian day', function (done) {
-    assert.equal('2016-0-2', dekatrian.gregToDeka(2016, 1, 2))
+    assert.strictEqual('2016-0-2', dekatrian.gregToDeka(2016, 1, 2))
     done()
   })
 
   it('2018-12-31', function (done) {
-    assert.equal('2018-13-28', dekatrian.gregToDeka(2018, 12, 31))
+    assert.strictEqual('2018-13-28', dekatrian.gregToDeka(2018, 12, 31))
     done()
   })
 })
