@@ -4,6 +4,14 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [4.0.7] - 2018-12-24
+
+### Changed
+- engine npm ^6.4 to ^5.8
+
+### Removed
+- tags file
+
 ## [4.0.6] - 2018-12-22
 
 ### Changed
