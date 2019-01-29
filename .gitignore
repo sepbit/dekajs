@@ -1,6 +1,8 @@
 .git/
 .nyc_output/
 package-lock.json
+tags
 coverage/
 doc/jsdoc
 node_modules/
+out/
