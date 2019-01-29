@@ -4,10 +4,19 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.0] - 2019-01-29
+
+### Added
+- ECMAScript module, with [ESM](https://github.com/standard-things/esm)
+
+### Changed
+- testing framework [MOCHA](https://github.com/mochajs/mocha) to [AVA](https://github.com/avajs/ava)
+
+
 ## [4.0.7] - 2018-12-24
 
 ### Changed
-- engine npm ^6.4 to ^5.8
+- engine [NPM](https://github.com/npm/cli) ^6.4 to ^5.8
 
 ### Removed
 - tags file
