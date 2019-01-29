@@ -52,14 +52,14 @@ ECMAScript module.
 
 ``` html
 <script type="module">
-  import {dekaToGreg, gregToDeka} from 'https://unpkg.com/@vitorteccom/dekajs/lib/dekatrian.mjs'
+  import dekatrian from 'https://unpkg.com/@vitorteccom/dekajs/lib/main.mjs'
 
   // Convert from Dekatrian to Gregorian calendars
-  dekaToGreg(2018, 13, 28)
+  dekatrian.dekaToGreg(2018, 13, 28)
   // Return string, 2018-12-31
 
   // Convert from Gregorian to Dekatrian calendars
-  gregToDeka(2018, 12, 31)
+  dekatrian.gregToDeka(2018, 12, 31)
   // Return string, 2018-13-28
 </script>
 ```
