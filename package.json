@@ -30,9 +30,9 @@
     },
     "scripts": {
         "doc": "jsdoc --configure jsdoc.json",
-        "fix-style": "standard --fix 'lib/*.mjs' 'test/*.mjs'",
-        "check-style": "standard 'lib/*.mjs' 'test/*.mjs'",
-        "test": "nyc --extension .mjs --reporter=html --reporter=text ava 'test/*.mjs'"
+        "fix-style": "standard --fix 'lib/*.mjs' 'test/*.js'",
+        "check-style": "standard 'lib/*.mjs' 'test/*.js'",
+        "test": "nyc --extension .mjs --reporter=html --reporter=text ava 'test/*.js'"
     },
     "ava": {
         "require": [

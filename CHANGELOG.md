@@ -4,6 +4,11 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.1] - 2019-02-10
+
+### Fixed
+- dekaToGreg() function, error Sinchronian day
+
 ## [5.0.0] - 2019-01-29
 
 ### Added
