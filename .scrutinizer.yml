@@ -11,10 +11,10 @@ build:
         analysis:
             tests:
                 override:
-                    - node_modules/.bin/standard --fix "lib/*.mjs" "test/*.js"
-                    - node_modules/.bin/standard "lib/*.mjs" "test/*.js"
+                    - node_modules/.bin/standard --fix "lib/*.mjs" "test/*.mjs"
+                    - node_modules/.bin/standard "lib/*.mjs" "test/*.mjs"
                     -
-                        command: node_modules/.bin/nyc --extension .mjs --reporter=clover node_modules/.bin/ava test/*.js
+                        command: node_modules/.bin/nyc --extension .mjs --reporter=clover node_modules/.bin/ava test/*.mjs
                         coverage:
                             file: coverage/clover.xml
                             format: clover

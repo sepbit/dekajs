@@ -1,6 +1,6 @@
 {
     "name": "@vitorteccom/dekajs",
-    "version": "5.0.1",
+    "version": "5.0.2",
     "description": "This is a simple library to convert Dekatrian and Gregorian.",
     "keywords": [
         "Vitortec.com",
@@ -30,9 +30,9 @@
     },
     "scripts": {
         "doc": "jsdoc --configure jsdoc.json",
-        "fix-style": "standard --fix 'lib/*.mjs' 'test/*.js'",
-        "check-style": "standard 'lib/*.mjs' 'test/*.js'",
-        "test": "nyc --extension .mjs --reporter=html --reporter=text ava 'test/*.js'"
+        "fix-style": "standard --fix 'lib/*.mjs' 'test/*.mjs'",
+        "check-style": "standard 'lib/*.mjs' 'test/*.mjs'",
+        "test": "nyc --extension .mjs --reporter=html --reporter=text ava 'test/*.mjs'"
     },
     "ava": {
         "require": [

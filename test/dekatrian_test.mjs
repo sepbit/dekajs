@@ -24,7 +24,7 @@
  */
 
 import test from 'ava'
-import dekatrian from '../lib/main.mjs'
+import dekatrian from '../lib/main'
 
 /** Test private function checkLeapYear */
 test('400 year', t => {
