@@ -4,6 +4,10 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.4] 2019-02-12
+### Fixed
+- Standard.JS style guide
+
 ## [5.0.3] 2019-02-12
 ### Changsed
 - Appropriate legal notice

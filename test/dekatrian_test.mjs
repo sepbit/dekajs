@@ -40,7 +40,7 @@ test('400 year', t => {
   t.is(dekatrian.gregToDeka(400, 1, 1), '400-0-1')
 })
 
-/** Test private function checkGregorian *//
+/** Test private function checkGregorian */
 test('Error 2016-2-30', t => {
   const error = t.throws(() => {
     dekatrian.gregToDeka(2016, 2, 30)
