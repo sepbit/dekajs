@@ -4,6 +4,10 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.3] 2019-02-12
+### Changsed
+- Appropriate legal notice
+
 ## [5.0.2] - 2019-02-11
 ### Changed
 - test/*.js to test/*.mjs
