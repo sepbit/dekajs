@@ -70,7 +70,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Testing
 
 ``` bash
-$ npm run test
+$ npm test
 ```
 
 ## Contributing

@@ -24,7 +24,7 @@ Contributions are **welcome** and will be fully **credited**.
 ## Running Tests
 
 ``` bash
-$ npm run test
+$ npm test
 ```
 
 
