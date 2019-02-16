@@ -4,7 +4,7 @@ Contributions are **welcome** and will be fully **credited**.
 
 ## Pull Requests
 
-- **[Coding Style Standard](https://github.com/standard/standard)** - Check the code style with ``$ npm run check-style`` and fix it with ``$ npm run fix-style``.
+- **[StandardJS Coding Standard](https://github.com/standard/standard)** - Check the code style with ``$ npm run check-style`` and fix it with ``$ npm run fix-style``.
 
 - **[Comments](http://usejsdoc.org)** - Your patch won't be accepted if it doesn't have comments.
 
