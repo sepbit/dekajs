@@ -9,7 +9,7 @@ DEKAtrian for JavaScript
 
 This is a simple library for converting dates between [Dekatrian](https://www.facebook.com/dekatrian/) and [Gregorian](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar) calendars. This library is not official.
 
-This package is compatible with [Standard](https://github.com/standard/standard) and [LibreJS](https://www.gnu.org/software/librejs).
+This package is compatible with [StandardJS](https://github.com/standard/standard) and [LibreJS](https://www.gnu.org/software/librejs).
 
 ## Structure
 This is the directory structure.
