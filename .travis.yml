@@ -1,0 +1,18 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - 8
+
+install:
+  - npm install --save-dev coveralls
+
+script:
+  - npm install
+  - npm run fix-style
+  - npm run check-style
+  - npm test
+
+after_success:
+  - node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls -v

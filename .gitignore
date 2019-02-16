@@ -1,7 +1,7 @@
-.git/
-.nyc_output/
 package-lock.json
 tags
+.git/
+.nyc_output/
 coverage/
 doc/jsdoc
 node_modules/

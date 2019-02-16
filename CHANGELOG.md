@@ -4,12 +4,16 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.5] 2019-02-16
+### Changed
+- Scrutinizer CI to Travis CI and Coveralls
+
 ## [5.0.4] 2019-02-12
 ### Fixed
 - Standard.JS style guide
 
 ## [5.0.3] 2019-02-12
-### Changsed
+### Changed
 - Appropriate legal notice
 
 ## [5.0.2] - 2019-02-11

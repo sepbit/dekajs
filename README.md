@@ -4,8 +4,8 @@ DEKAtrian for JavaScript
 [![Software License](https://img.shields.io/github/license/vitorteccom/dekajs.svg)](COPYING)
 [![Latest Version on NPM](https://img.shields.io/npm/v/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
 [![Total Downloads](https://img.shields.io/npm/dt/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
-[![Code Coverage](https://scrutinizer-ci.com/g/vitorteccom/dekajs/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/vitorteccom/dekajs/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vitorteccom/dekajs/build-status/master)
+[![Build Status](https://travis-ci.com/vitorteccom/dekajs.svg?branch=master)](https://travis-ci.com/vitorteccom/dekajs)
+[![Coverage Status](https://coveralls.io/repos/github/vitorteccom/dekajs/badge.svg?branch=master)](https://coveralls.io/github/vitorteccom/dekajs?branch=master)
 
 This is a simple library for converting dates between [Dekatrian](https://www.facebook.com/dekatrian/) and [Gregorian](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar) calendars. This library is not official.
 
