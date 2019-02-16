@@ -4,6 +4,10 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.6] 2019-02-16
+### Changed
+- Update CONTRIBUTING.md
+
 ## [5.0.5] 2019-02-16
 ### Changed
 - Scrutinizer CI to Travis CI and Coveralls
