@@ -4,6 +4,11 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [5.0.8] 2019-02-16
+### Changed
+- Update package.json
+- dekatrian_test.mjs to dekatrianTest.mjs
+
 ## [5.0.7] 2019-02-16
 ### Changed
 - Update README.md
