@@ -35,7 +35,7 @@ $ npm install @vitorteccom/dekajs
 CommonJS module.
 
 ``` javascript
-const dekatrian = require('@vitorteccom/dekajs')
+const dekajs = require('@vitorteccom/dekajs')
 
 // Convert from Dekatrian to Gregorian calendars
 dekatrian.dekaToGreg(2018, 13, 28)
@@ -51,14 +51,14 @@ ECMAScript module.
 
 ``` html
 <script type="module">
-  import dekatrian from 'https://unpkg.com/@vitorteccom/dekajs/lib/main.mjs'
+  import { dekaToGreg, gregToDeka } from 'https://unpkg.com/@vitorteccom/dekajs/lib/main.mjs'
 
   // Convert from Dekatrian to Gregorian calendars
-  dekatrian.dekaToGreg(2018, 13, 28)
+  dekaToGreg(2018, 13, 28)
   // Return string, 2018-12-31
 
   // Convert from Gregorian to Dekatrian calendars
-  dekatrian.gregToDeka(2018, 12, 31)
+  gregToDeka(2018, 12, 31)
   // Return string, 2018-13-28
 </script>
 ```

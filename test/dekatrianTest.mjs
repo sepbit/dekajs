@@ -33,17 +33,17 @@
  */
 
 import test from 'ava'
-import dekatrian from '../lib/main'
+import { dekaToGreg, gregToDeka } from '../lib/main.mjs'
 
 /** Test private function checkLeapYear */
 test('400 year', t => {
-  t.is(dekatrian.gregToDeka(400, 1, 1), '400-0-1')
+  t.is(gregToDeka(400, 1, 1), '400-0-1')
 })
 
 /** Test private function checkGregorian */
 test('Error 2016-2-30', t => {
   const error = t.throws(() => {
-    dekatrian.gregToDeka(2016, 2, 30)
+    gregToDeka(2016, 2, 30)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Gregorian date')
@@ -51,7 +51,7 @@ test('Error 2016-2-30', t => {
 
 test('Error 2018-2-29', t => {
   const error = t.throws(() => {
-    dekatrian.gregToDeka(2018, 2, 29)
+    gregToDeka(2018, 2, 29)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Gregorian date')
@@ -59,7 +59,7 @@ test('Error 2018-2-29', t => {
 
 test('Error 2018-1-32', t => {
   const error = t.throws(() => {
-    dekatrian.gregToDeka(2018, 1, 32)
+    gregToDeka(2018, 1, 32)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Gregorian date')
@@ -67,7 +67,7 @@ test('Error 2018-1-32', t => {
 
 test('Error 2018-13-31', t => {
   const error = t.throws(() => {
-    dekatrian.gregToDeka(2018, 4, 31)
+    gregToDeka(2018, 4, 31)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Gregorian date')
@@ -76,7 +76,7 @@ test('Error 2018-13-31', t => {
 /** Test private function checkDekatrian */
 test('Error 2016-0-3', t => {
   const error = t.throws(() => {
-    dekatrian.dekaToGreg(2016, 0, 3)
+    dekaToGreg(2016, 0, 3)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Dekatrian date')
@@ -84,7 +84,7 @@ test('Error 2016-0-3', t => {
 
 test('Error 2018-0-2', t => {
   const error = t.throws(() => {
-    dekatrian.dekaToGreg(2018, 0, 2)
+    dekaToGreg(2018, 0, 2)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Dekatrian date')
@@ -92,7 +92,7 @@ test('Error 2018-0-2', t => {
 
 test('Error 2018-14-2', t => {
   const error = t.throws(() => {
-    dekatrian.dekaToGreg(2018, 14, 2)
+    dekaToGreg(2018, 14, 2)
   }, Error)
 
   t.is(error.message, 'The provider arguments are not a valid Dekatrian date')
@@ -100,26 +100,26 @@ test('Error 2018-14-2', t => {
 
 /** Test public function dekaToGreg */
 test('dekaToGreg - Achronian day', t => {
-  t.is(dekatrian.dekaToGreg(2018, 0, 1), '2018-1-1')
+  t.is(dekaToGreg(2018, 0, 1), '2018-1-1')
 })
 
 test('dekaToGreg - Sinchronian day', t => {
-  t.is(dekatrian.dekaToGreg(2016, 0, 2), '2016-1-2')
+  t.is(dekaToGreg(2016, 0, 2), '2016-1-2')
 })
 
 test('dekaToGreg - Other day', t => {
-  t.is(dekatrian.dekaToGreg(2018, 13, 28), '2018-12-31')
+  t.is(dekaToGreg(2018, 13, 28), '2018-12-31')
 })
 
 /** Test public function gregToDeka */
 test('gregToDeka - Achronian day', t => {
-  t.is(dekatrian.gregToDeka(2018, 1, 1), '2018-0-1')
+  t.is(gregToDeka(2018, 1, 1), '2018-0-1')
 })
 
 test('gregToDeka - Sinchronian day', t => {
-  t.is(dekatrian.gregToDeka(2016, 1, 2), '2016-0-2')
+  t.is(gregToDeka(2016, 1, 2), '2016-0-2')
 })
 
 test('gregToDeka - Other day', t => {
-  t.is(dekatrian.gregToDeka(2018, 12, 31), '2018-13-28')
+  t.is(gregToDeka(2018, 12, 31), '2018-13-28')
 })

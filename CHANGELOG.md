@@ -4,6 +4,10 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [6.0.0] 2019-03-05
+### Changed
+- export default to export
+
 ## [5.0.8] 2019-02-16
 ### Changed
 - Update package.json
