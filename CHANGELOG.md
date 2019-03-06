@@ -4,6 +4,10 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [6.0.1] 2019-03-06
+### Fixed
+- Coverage
+
 ## [6.0.0] 2019-03-05
 ### Changed
 - export default to export
