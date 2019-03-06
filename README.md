@@ -35,7 +35,7 @@ $ npm install @vitorteccom/dekajs
 CommonJS module.
 
 ``` javascript
-const dekajs = require('@vitorteccom/dekajs')
+const dekatrian = require('@vitorteccom/dekajs')
 
 // Convert from Dekatrian to Gregorian calendars
 dekatrian.dekaToGreg(2018, 13, 28)
