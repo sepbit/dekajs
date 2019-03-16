@@ -1,6 +1,6 @@
 # Documentation
 
-The code is self-documenting, use [JSDoc](http://usejsdoc.org) to build the documentation.
+The code is self-documenting, use [JSDoc](https://usejsdoc.org) to build the documentation.
 
 ### Building
 
