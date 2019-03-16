@@ -1,5 +1,4 @@
 # Dekajs
-DEKAtrian for JavaScript
 
 [![Software License](https://img.shields.io/github/license/vitorteccom/dekajs.svg)](COPYING)
 [![Latest Version on NPM](https://img.shields.io/npm/v/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
@@ -7,24 +6,15 @@ DEKAtrian for JavaScript
 [![Build Status](https://travis-ci.com/vitorteccom/dekajs.svg?branch=master)](https://travis-ci.com/vitorteccom/dekajs)
 [![Coverage Status](https://coveralls.io/repos/github/vitorteccom/dekajs/badge.svg?branch=master)](https://coveralls.io/github/vitorteccom/dekajs?branch=master)
 
+> DEKAtrian for JavaScript
+
 This is a simple library for converting dates between [Dekatrian](https://www.facebook.com/dekatrian/) and [Gregorian](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar) calendars. This library is not official.
 
 This package is compatible with [StandardJS](https://github.com/standard/standard) and [LibreJS](https://www.gnu.org/software/librejs).
 
-## Structure
-This is the directory structure.
-
-```
-doc/
-lib/
-node_modules/
-test/
-```
-
-
 ## Install
 
-Via NPM.
+This project uses [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com).
 
 ``` bash
 $ npm install @vitorteccom/dekajs
@@ -63,29 +53,15 @@ ECMAScript module.
 </script>
 ```
 
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ npm test
-```
-
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+Pull Requests not accepted, please contact us at: `contato@vitortec.com`.
 
-## Security
-
-If you discover any security related issues, please email ``contato@vitortec.com`` instead of using the issue tracker.
-
-## Credits
+### Contributors
 
 - [Vitor Guia](https://github.com/vitoranguia)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/vitorteccom/dekajs/contributors)
 
 ## License
 
-GPL-3.0-or-later. Please see [COPYING File](COPYING) for more information.
+GPL-3.0-or-later, please see [COPYING](COPYING) file for more information.
