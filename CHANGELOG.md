@@ -2,6 +2,10 @@
 
 See [Keep a Changelog](http://keepachangelog.com/).
 
+## [6.0.4] 2019-05-24
+### Changed
+- Change from GitHub to NotABug 
+
 ## [6.0.3] 2019-03-16
 ### Changed
 - Information for contribution

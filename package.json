@@ -1,6 +1,6 @@
 {
     "name": "@sepbit/dekajs",
-    "version": "6.0.3",
+    "version": "6.0.4",
     "description": "This is a simple library to convert Dekatrian and Gregorian.",
     "keywords": [
         "SEPBIT",
