@@ -1,23 +1,17 @@
 # Dekajs
 
-[![Software License](https://img.shields.io/github/license/vitorteccom/dekajs.svg)](COPYING)
-[![Latest Version on NPM](https://img.shields.io/npm/v/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
-[![Total Downloads](https://img.shields.io/npm/dt/@vitorteccom/dekajs.svg)](https://npmjs.org/package/@vitorteccom/dekajs)
-[![Build Status](https://travis-ci.com/vitorteccom/dekajs.svg?branch=master)](https://travis-ci.com/vitorteccom/dekajs)
-[![Coverage Status](https://coveralls.io/repos/github/vitorteccom/dekajs/badge.svg?branch=master)](https://coveralls.io/github/vitorteccom/dekajs?branch=master)
-
 > DEKAtrian for JavaScript
 
 This is a simple library for converting dates between [Dekatrian](https://www.facebook.com/dekatrian/) and [Gregorian](https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar) calendars. This library is not official.
 
-This package is compatible with [StandardJS](https://github.com/standard/standard) and [LibreJS](https://www.gnu.org/software/librejs).
+This package is compatible with [StandardJS](https://standardjs.com) and [LibreJS](https://www.gnu.org/software/librejs).
 
 ## Install
 
 This project uses [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com).
 
 ``` bash
-$ npm install @vitorteccom/dekajs
+$ npm install @sepbit/dekajs
 ```
 
 ## Usage
@@ -25,7 +19,7 @@ $ npm install @vitorteccom/dekajs
 CommonJS module.
 
 ``` javascript
-const dekatrian = require('@vitorteccom/dekajs')
+const dekatrian = require('@sepbit/dekajs')
 
 // Convert from Dekatrian to Gregorian calendars
 dekatrian.dekaToGreg(2018, 13, 28)
@@ -41,7 +35,7 @@ ECMAScript module.
 
 ``` html
 <script type="module">
-  import { dekaToGreg, gregToDeka } from 'https://unpkg.com/@vitorteccom/dekajs/lib/main.mjs'
+  import { dekaToGreg, gregToDeka } from 'https://unpkg.com/@sepbit/dekajs/lib/main.mjs'
 
   // Convert from Dekatrian to Gregorian calendars
   dekaToGreg(2018, 13, 28)
@@ -55,12 +49,7 @@ ECMAScript module.
 
 ## Contributing
 
-Pull Requests not accepted, please contact us at: `contato@vitortec.com`.
-
-### Contributors
-
-- [Vitor Guia](https://github.com/vitoranguia)
-- [All Contributors](https://github.com/vitorteccom/dekajs/contributors)
+Pull Requests not accepted.
 
 ## License
 

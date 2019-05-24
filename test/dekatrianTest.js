@@ -1,6 +1,6 @@
 /**
  * Dekajs - DEKAtrian for JavaScript
- * Copyright (C) 2017-2019  Vitortec.com
+ * Copyright (C) 2017-2019  SEPBIT
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,10 +17,10 @@
  *
  * ECMAScript version 6
  *
- * @author    Vitor Guia <vitor.guia@vitortec.com>
- * @copyright 2017-2019 Vitortec.com
+ * @author    Vitor Guia <contato@vitor.guia.nom.br>
+ * @copyright 2017-2019 SEPBIT
  * @license   GPL-3.0-or-later
- * @see       {@link https://github.com/vitorteccom/dekajs|Repository of Dekajs}
+ * @see       {@link https://notabug.org/sepbit/dekajs|Repository of Dekajs}
  */
 
 import test from 'ava'
