@@ -1,6 +1,5 @@
 {
     "source": {
-        "includePattern": ".+\\.(js(doc|x)?|mjs)$",
         "include": "lib/"
     },
     "opts": {

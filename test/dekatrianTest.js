@@ -24,7 +24,7 @@
  */
 
 import test from 'ava'
-import { dekaToGreg, gregToDeka } from '../lib/dekatrian.mjs'
+import { dekaToGreg, gregToDeka } from '../lib/main.js'
 
 /** Test private function checkLeapYear */
 test('400 year', t => {
