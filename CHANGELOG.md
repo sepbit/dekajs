@@ -2,6 +2,10 @@
 
 See [Keep a Changelog](http://keepachangelog.com/).
 
+## [7.0.1] 2019-08-18
+### Changed
+- notice license 
+
 ## [7.0.0] 2019-08-16
 ### Changed
 - New release 
