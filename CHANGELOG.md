@@ -2,17 +2,21 @@
 
 See [Keep a Changelog](http://keepachangelog.com/).
 
+## [7.0.2] 2019-09-25
+### Changed
+- Minor improvements
+
 ## [7.0.1] 2019-08-18
 ### Changed
-- notice license 
+- notice license
 
 ## [7.0.0] 2019-08-16
 ### Changed
-- New release 
+- New release
 
 ## [6.0.4] 2019-05-24
 ### Changed
-- Change from GitHub to NotABug 
+- Change from GitHub to NotABug
 
 ## [6.0.3] 2019-03-16
 ### Changed

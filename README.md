@@ -34,17 +34,26 @@ ECMAScript module.
 
 
 ``` html
-<script type="module">
-  import { dekaToGreg, gregToDeka } from './node_modules/@sepbit/dekajs/lib/main.mjs'
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script type="module">
+      import { dekaToGreg, gregToDeka } from 'https://notabug.org/sepbit/dekajs/raw/master/lib/main.js'
 
-  // Convert from Dekatrian to Gregorian calendars
-  dekaToGreg(2018, 13, 28)
-  // Return string, 2018-12-31
+      // Convert from Dekatrian to Gregorian calendars
+      dekaToGreg(2018, 13, 28)
+      // Return string, 2018-12-31
 
-  // Convert from Gregorian to Dekatrian calendars
-  gregToDeka(2018, 12, 31)
-  // Return string, 2018-13-28
-</script>
+      // Convert from Gregorian to Dekatrian calendars
+      gregToDeka(2018, 12, 31)
+      // Return string, 2018-13-28
+    </script>
+  </body>
+</html>
 ```
 
 ## Contributing

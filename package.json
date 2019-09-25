@@ -23,7 +23,8 @@
             "url": "https://vitor.guia.nom.br"
         }
     ],
-    "main": "lib/main",
+    "main": "lib/index.js",
+    "module": "lib/main.js",
     "repository": {
         "type": "git",
         "url": "https://notabug.org/sepbit/dekajs.git"
@@ -32,7 +33,26 @@
         "doc": "jsdoc --configure jsdoc.json",
         "fix-style": "standard --fix 'lib/*.js' 'test/*.js'",
         "check-style": "standard 'lib/*.js' 'test/*.js'",
-        "test": "nyc --reporter=html --reporter=text ava"
+        "test": "nyc --reporter=html --reporter=text ava test/*.js"
+    },
+    "nyc": {
+        "extension": [
+            ".js",
+            ".mjs"
+        ]
+    },
+    "ava": {
+        "babel": false,
+        "require": [
+            "esm"
+        ],
+        "extensions": [
+            "js",
+            "mjs"
+        ]
+    },
+    "dependencies": {
+        "esm": "3.2"
     },
     "devDependencies": {
         "jsdoc": "^3.6",
