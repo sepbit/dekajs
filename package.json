@@ -1,6 +1,6 @@
 {
     "name": "@sepbit/dekajs",
-    "version": "7.0.1",
+    "version": "7.0.2",
     "description": "This is a simple library to convert Dekatrian and Gregorian.",
     "keywords": [
         "SEPBIT",
@@ -30,7 +30,7 @@
         "url": "https://notabug.org/sepbit/dekajs.git"
     },
     "scripts": {
-        "doc": "jsdoc --configure jsdoc.json",
+        "doc": "jsdoc lib/*.js -d doc/jsdoc/",
         "fix-style": "standard --fix 'lib/*.js' 'test/*.js'",
         "check-style": "standard 'lib/*.js' 'test/*.js'",
         "test": "nyc --reporter=html --reporter=text ava test/*.js"
@@ -56,8 +56,8 @@
     },
     "devDependencies": {
         "jsdoc": "^3.6",
-        "standard": "^13.1",
-        "ava": "^2.2",
+        "standard": "^14.3",
+        "ava": "^2.4",
         "nyc": "^14.1"
     },
     "engines": {
