@@ -42,7 +42,7 @@ ECMAScript module.
   </head>
   <body>
     <script type="module">
-      import { dekaToGreg, gregToDeka } from 'https://notabug.org/sepbit/dekajs/raw/master/lib/main.js'
+      import { dekaToGreg, gregToDeka } from 'https://unpkg.com/@sepbit/dekajs/lib/main.js'
 
       // Convert from Dekatrian to Gregorian calendars
       dekaToGreg(2018, 13, 28)
@@ -59,6 +59,9 @@ ECMAScript module.
 ## Contributing
 
 Pull Requests not accepted.
+
+## Security
+If you discover any security related issues, please email `contato@sepbit.com` instead of using the issue tracker.
 
 ## License
 

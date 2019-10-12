@@ -1,0 +1,13 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+test:
+  script:
+    - npm install
+    - npm run check-style
+    - npm run fix-style
+    - node_modules/.bin/nyc node_modules/.bin/ava test/*.js
+

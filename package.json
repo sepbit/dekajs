@@ -1,19 +1,19 @@
 {
     "name": "@sepbit/dekajs",
-    "version": "7.0.2",
+    "version": "7.1.0",
     "description": "This is a simple library to convert Dekatrian and Gregorian.",
     "keywords": [
-        "SEPBIT",
+        "Sepbit",
         "converter",
         "date",
         "calendar",
         "dekatrian",
         "gregorian"
     ],
-    "homepage": "https://notabug.org/sepbit/dekajs",
+    "homepage": "https://gitlab.com/sepbit/dekajs",
     "bugs": {
         "email": "contato@sepbit.com",
-        "url": "https://notabug.org/sepbit/dekajs/issues"
+        "url": "https://gitlab.com/sepbit/dekajs/issues"
     },
     "license": "GPL-3.0-or-later",
     "author": [
@@ -27,7 +27,7 @@
     "module": "lib/main.js",
     "repository": {
         "type": "git",
-        "url": "https://notabug.org/sepbit/dekajs.git"
+        "url": "https://gitlab.com/sepbit/dekajs.git"
     },
     "scripts": {
         "doc": "jsdoc lib/*.js -d doc/jsdoc/",
