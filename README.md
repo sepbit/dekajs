@@ -61,6 +61,7 @@ ECMAScript module.
 Pull Requests not accepted.
 
 ## Security
+
 If you discover any security related issues, please email `contato@sepbit.com` instead of using the issue tracker.
 
 ## License

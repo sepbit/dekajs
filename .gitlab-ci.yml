@@ -7,7 +7,7 @@ cache:
 test:
   script:
     - npm install
-    - npm run check-style
     - npm run fix-style
+    - npm run check-style
     - node_modules/.bin/nyc node_modules/.bin/ava test/*.js
 
