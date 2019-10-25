@@ -1,6 +1,4 @@
 /**
- * @source: https://gitlab.com/sepbit/dekajs
- *
  * @licstart  The following is the entire license notice for the
  * JavaScript code in this page.
  *
@@ -23,13 +21,6 @@
  *
  * @licend  The above is the entire license notice
  * for the JavaScript code in this page.
- *
- * ECMAScript version 6
- *
- * @author    Vitor Guia <contato@vitor.guia.nom.br>
- * @copyright 2017-2019 Sepbit
- * @license   GPL-3.0-or-later
- * @see       {@link https://gitlab.com/sepbit/dekajs|Repository of Dekajs}
  */
 
 import test from 'ava'
