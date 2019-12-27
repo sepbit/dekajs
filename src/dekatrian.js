@@ -129,7 +129,7 @@ function checkDekatrian (year, month, day) {
  * @param {integer} month Dekatrian month
  * @param {integer} day   Dekatrian day
  *
- * @throws {Error} If not a valid Dekatrian date
+ * @throws {Error} Is not a valid Dekatrian date
  *
  * @return {string} Gregorian date e.g. 2018-12-31
  */
@@ -170,7 +170,7 @@ function dekaToGreg (year, month, day) {
  * @param {integer} month Gregorian month
  * @param {integer} day   Gregorian day
  *
- * @throws {Error} If not a valid Gregorian date
+ * @throws {Error} Is not a valid Gregorian date
  *
  * @return {string} Dekatrian date e.g. 2018-13-28
  */

@@ -2,9 +2,13 @@
 
 See [Keep a Changelog](http://keepachangelog.com/).
 
+## [8.0.0] 2019-12-27
+### Changed
+- Change directory structure
+
 ## [7.1.0] 2019-10-12
 ### Changed
-- Change from NotABug to GitLab 
+- Change from NotABug to GitLab
 
 ## [7.0.2] 2019-09-25
 ### Changed
