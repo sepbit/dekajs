@@ -14,6 +14,6 @@ test:
     - npm run fix-style
     - npm run check-style
     - node_modules/.bin/nyc node_modules/.bin/ava test/*.js
- after_script:
+  after_script:
     - node_modules/.bin/cyclonedx-bom
     - curl -X "POST" "$BOM_SERVER" -H "Content-Type:multipart/form-data" -H "X-Api-Key:$BOM_KEY" -F "project=$BOM_PROJECT" -F "bom=@bom.xml"
