@@ -1,6 +1,7 @@
 stages:
   - test
   - deploy
+  - pages
 
 include:
   - template: Security/Dependency-Scanning.gitlab-ci.yml
@@ -30,6 +31,24 @@ test:
 deploy:
   stage: deploy
   extends: .prepare
+  only:
+    refs:
+      - master
   script:
     - node_modules/.bin/cyclonedx-bom
     - curl -X "POST" "$BOM_SERVER" -H "Content-Type:multipart/form-data" -H "X-Api-Key:$BOM_KEY" -F "project=$BOM_PROJECT" -F "bom=@bom.xml"
+
+pages:
+  stage: pages
+  extends: .prepare
+  only:
+    refs:
+      - master
+  script:
+    - mkdir public
+    - node_modules/.bin/jsdoc src/*.js -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
